@@ -105,7 +105,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1rPYpMp01hEPUJPfKH1nBWFjGcYNMeGraoVFKoOGtOGQ/gviz/tq?tqx=out:csv&sheet=cal_haunted_places',
+        url: 'https://docs.google.com/spreadsheets/d/14vebxts02Pa4A0xP47WDgYsdHC5cPn327igIYdxVFuE/gviz/tq?tqx=out:csv&sheet=cal_haunted_places',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
